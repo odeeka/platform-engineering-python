@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "config-validator"
+version = "0.1.0"
+description = "Validate service configuration files and enforce policies during CI"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-mock>=3", "pyinstaller>=6"]
+
+[project.scripts]
+config-validator = "config_validator.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

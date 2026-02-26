@@ -1,0 +1,8 @@
+# Good production config — should pass all checks
+service:
+  name: my-api
+  image: my-registry/my-api:1.2.3
+  replicas: 3
+  port: 8080
+  environment: prod
+  health_check: /healthz

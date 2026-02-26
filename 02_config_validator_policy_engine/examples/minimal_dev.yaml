@@ -1,0 +1,5 @@
+# Minimal dev config — warnings but no errors
+service:
+  name: dev-service
+  image: my-registry/dev-service:abc123
+  port: 3000

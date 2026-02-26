@@ -1,0 +1,6 @@
+# Bad config — triggers multiple errors
+service:
+  name: my-api
+  image: my-registry/my-api:latest
+  replicas: 1
+  port: 8080

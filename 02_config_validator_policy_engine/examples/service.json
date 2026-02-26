@@ -1,0 +1,9 @@
+{
+  "service": {
+    "name": "json-service",
+    "image": "registry.io/json-service:2.0.0",
+    "replicas": 2,
+    "port": 9090,
+    "health_check": "/health"
+  }
+}
