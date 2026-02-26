@@ -194,4 +194,4 @@ By completing these projects with production-level quality standards, you will d
 - Strong cloud-native engineering skills
 - Real-world distributed systems thinking
 - Production resilience patterns
-- Platform engineering competence suitable for remote EU roles
+- Platform engineering competence
